@@ -1,37 +1,17 @@
-```
+### JFillBlank V-0.1
 
-         ,---._
-       .-- -.' \     ,---,                                            .---.
-       |    |   :  .'  .' `\                     ,-.----.            /. ./|                       ,---,
-       :    ;   |,---.'     \   __  ,-.   ,---.  \    /  \       .--'.  ' ;   ,---.    __  ,-.  ,---.'|
-       :        ||   |  .`\  |,' ,'/ /|  '   ,'\ |   :    |     /__./ \ : |  '   ,'\ ,' ,'/ /|  |   | :  .--.--.
-       |    :   ::   : |  '  |'  | |' | /   /   ||   | .\ : .--'.  '   \' . /   /   |'  | |' |  |   | | /  /    '
-       :         |   ' '  ;  :|  |   ,'.   ; ,. :.   : |: |/___/ \ |    ' '.   ; ,. :|  |   ,',--.__| ||  :  /`./
-       |    ;   |'   | ;  .  |'  :  /  '   | |: :|   |  \ :;   \  \;      :'   | |: :'  :  / /   ,'   ||  :  ;_
-   ___ l         |   | :  |  '|  | '   '   | .; :|   : .  | \   ;  `      |'   | .; :|  | ' .   '  /  | \  \    `.
- /    /\    J   :'   : | /  ; ;  : |   |   :    |:     |`-'  .   \    .\  ;|   :    |;  : | '   ; |:  |  `----.   \
-/  ../  `..-    ,|   | '` ,/  |  , ;    \   \  / :   : :      \   \   ' \ | \   \  / |  , ; |   | '/  ' /  /`--'  /
-\    \         ; ;   :  .'     ---'      `----'  |   | :       :   '  |--"   `----'   ---'  |   :    :|'--'.     /
- \    \      ,'  |   ,.'                         `---'.|        \   \ ;                      \   \  /    `--'---'
-  "---....--'    '---'                             `---`         '---"                        `----'
-```
-==========
-
-### JDropWords V-0.1
-
-JDropWords is a word game written in jQuery. You have to drag and drop the correct words to fill the blanks. The answer of the game is given through a json object, either retrieved through an ajax call, or given at the instantiation.
+JFillBlank is a word game written in jQuery. You have to drag and drop the correct words to fill the blanks. The answer of the game is given through a json object, either retrieved through an ajax call, or given at the instantiation.
 This plugin requires a copy of jQuery.
 
-See a demo : http://www.enova-tech.net/jdropwords
 
 
-### How do I install JDropWords ?
+### How do I install JFillBlank ?
 
-Installing JDropWords is very easy. Starting from the fact that you already know html and css, you just have to integrate to your web page the JDropWords script, and to give it some custom parameters to make it work the way you want it (ajax functions, etc..). Using JDropWords is very simple even though it is highly customizable.
+Installing JFillBlank is very easy. Starting from the fact that you already know html and css, you just have to integrate to your web page the JFillBlank script, and to give it some custom parameters to make it work the way you want it (ajax functions, etc..). Using JFillBlank is very simple even though it is highly customizable.
 
 Your html code should look like the one below :
 ```html
-<div class="jdropwords">
+<div class="JDropWords">
     <div class="blanks">
         <p>bonjour, je m'<span class="blank" id="123-456-789"></span> Christian</p>
         <p><span class="blank" id="223-456-789"></span> ca va ?</p>
@@ -55,7 +35,7 @@ Your html code should look like the one below :
 Once you have a proper html code showing your list, you are just two step away.
 
 First, it is necessary to include jQuery libraries on your page.
-After what we integrate the JDropWords script and the css file :
+After what we integrate the JFillBlank script and the css file :
 ```html
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
@@ -93,7 +73,7 @@ or, if you want to give the answers directly in the call (without ajax).
 
 ### What are the available configuration options ?
 
-JDropWords has a lot of different configuration options. They are listed below with their default values.
+JFillBlank has a lot of different configuration options. They are listed below with their default values.
 
 ```
 hoverClass : "drop-hover"                      // class to put on the blank element when the word is dragged over.
